@@ -52,7 +52,7 @@ export const Navbar = ({ user }) => {
               </span>
             )}
             {!user && (
-              <span className="link  font-extrabold md:text-sm"  onClick={() => history.push("/login")}>
+              <span className="link  font-extrabold md:text-sm cursor-pointer"  onClick={() => history.push("/login")}>
                Sign In
               </span>
             )}
