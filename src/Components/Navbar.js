@@ -53,7 +53,7 @@ export const Navbar = ({ user }) => {
             )}
             {!user && (
               <span className="link  font-extrabold md:text-sm">
-                Account & Lists
+               Sign In
               </span>
             )}
           </div>
