@@ -4,7 +4,7 @@ import { Products } from './Products'
 import { useHistory } from 'react-router-dom'
 import { auth } from '../Config/Config'
 
-export function Home() {
+export function Home({user) {
 
    
 
