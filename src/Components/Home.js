@@ -12,7 +12,7 @@ export const Home = ({ user }) => {
         // forcing user to signup
         auth.onAuthStateChanged(user => {
             if (!user) {
-                history.push('/login');
+                history.push('/');
             }
         })
     })
