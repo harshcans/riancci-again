@@ -44,7 +44,7 @@ export class App extends Component {
                     <BrowserRouter>
                         <Switch>
                             {/* home */}
-                            <Route exact path='/' component={() => <Home user={this.state.user} />} />
+                            <Route exact path='/' component={Home} />
                             {/* signup */}
                             <Route path="/signup" component={Signup} />
                             {/* login */}
