@@ -36,8 +36,8 @@ export const Login = (props) => {
             </form>
             {error && <span className='error-msg'>{error}</span>}
             <br/>
-            <span>Don't have an account? Register
-                <Link to="/signup"> Here</Link>
+            <span>Don't have an account? 
+                <Link to="/signup"> Register Here</Link>
             </span>
         </div>
     )
