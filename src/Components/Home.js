@@ -4,18 +4,9 @@ import { Products } from './Products'
 import { useHistory } from 'react-router-dom'
 import { auth } from '../Config/Config'
 
-export const Home = ({ user }) => {
+export function Home() {
 
-    const history = useHistory();
-
-    useEffect(() => {
-        // forcing user to signup
-        auth.onAuthStateChanged(user => {
-            if (!user) {
-                history.push('/');
-            }
-        })
-    })
+   
 
     return (
         <div className='wrapper'>
